@@ -41,4 +41,4 @@ jobs:
       - run: mvn integration-test cobertura:cobertura
       - run:
           name: Send to CodeCov
-          command: bash <(curl -s https://codecov.io/bash)
+          command: bash <(curl -s https://codecov.io/bash) -t 743ce23f-20a9-45ee-a2e2-bd665c3d1fd4
